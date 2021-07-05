@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .c1 {
+        margin-left: 20%;
+        clear: both;
+    }
+
+    .c {
+        text-align: center;
+    }
+
+    h4 {
+        color: red;
+    }
+
+    .c1 div {
+        margin-left: 5%;
+        float: left;
+    }
+
+    .btn {
+        clear: both;
+        margin-top: 2%;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        width: 100px;
+        height: 30px;
+        margin-left: 330%;
+        clear: both;
+
+    }
+
+    .c2 {
+        clear: both;
+        text-align: center;
+    }
+
+    .services {
+        clear: both;
+        display: grid;
+        grid-gap: 2%;
+        padding-top: 2%;
+        margin-left: 10%;
+    }
+
+    @media only screen and (min-width: 992px) {
+        .services {
+            grid-template: "a b c"
+                "d e f";
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .services {
+            grid-template: "a b"
+                "c d""e f";
+        }
+
+    }
+
+    @media only screen and (max-width: 600px) {
+        .services {
+            grid-template: "a""b"
+                "c""d""e""f";
+        }
+
+    }
+
+    .services1 {
+        grid-area: a;
+    }
+
+    .services2 {
+        grid-area: b;
+    }
+
+    .services3 {
+        grid-area: c;
+    }
+
+    .services4 {
+        grid-area: d;
+    }
+
+    .services5 {
+        grid-area: e;
+    }
+
+    .services6 {
+        grid-area: f;
+    }
+
+    .s1 {
+        float: left;
+        margin-left: 5%;
+    }
+
+    .services img {
+        float: left;
+
+    }
+
+    .c1_1 {
+        text-align: left;
+    }
+</style>
+
+<body>
+    <div class="c">
+        <h4>News & Update</h4>
+        <h2>Our Blog Posts</h2>
+
+        <div class="c1">
+            <div class="c1_1"><img src="https://via.placeholder.com/200" />
+                <br><span>29, Januaryn2019</span><br>
+                <span><b>Architectural Art Modern</b></span>
+            </div>
+            <div class="c1_1"><img src="https://via.placeholder.com/200" />
+                <br><span>29, Januaryn2019</span><br>
+                <span><b>Architectural Art Modern</b></span>
+            </div>
+            <div class="c1_1"><img src="https://via.placeholder.com/200" />
+                <br><span>29, Januaryn2019</span><br>
+                <span><b>Architectural Art Modern</b></span>
+            </div>
+            <br>
+            <div class="btn">
+                <button>View All Posts</button>
+            </div>
+            <div class="c2">
+                <h4>Services</h4>
+                <h2>Our Services</h2>
+                <span>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley <br>of type and scrambled it</span>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services1">
+            <img src="https://via.placeholder.com/60" />
+            <div class="s1">
+                <b>Innovative Structure</b><br>
+                There are many variations of passages of Lorem Ipsum <br>available,
+                but the majority have suffered alteration in some <br>
+                form, by injected humour,
+            </div>
+        </div>
+        <div class="services2">
+            <img src="https://via.placeholder.com/60" />
+            <div class="s1">
+                <b>Architectural Design</b><br>
+                There are many variations of passages of Lorem Ipsum <br>available,
+                but the majority have suffered alteration in some <br>
+                form, by injected humour,
+            </div>
+        </div>
+        <div class="services3">
+            <img src="https://via.placeholder.com/60" />
+            <div class="s1"><b>Interior Design</b><br>
+                There are many variations of passages of Lorem Ipsum <br>available,
+                but the majority have suffered alteration in some <br>
+                form, by injected humour,
+            </div>
+        </div>
+        <div class="services4">
+            <img src="https://via.placeholder.com/60" />
+            <div class="s1"><b>Architectural Design</b><br>
+                There are many variations of passages of Lorem Ipsum <br>available,
+                but the majority have suffered alteration in some <br>
+                form, by injected humour,
+            </div>
+        </div>
+        <div class="services5">
+            <img src="https://via.placeholder.com/60" />
+            <div class="s1"><b>Architectural Design</b><br>
+                There are many variations of passages of Lorem Ipsum <br>available,
+                but the majority have suffered alteration in some <br>
+                form, by injected humour,
+            </div>
+        </div>
+        <div class="services6">
+            <img src="https://via.placeholder.com/60" />
+            <div class="s1"><b>Architectural Design</b><br>
+                There are many variations of passages of Lorem Ipsum <br>available,
+                but the majority have suffered alteration in some <br>
+                form, by injected humour,
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
